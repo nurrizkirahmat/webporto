@@ -1,0 +1,202 @@
+html{
+    position: relative;
+}
+
+body{
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url('../img/cover.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -50px;
+    overflow: hidden;
+}
+
+.jumbotron h1{
+    font-size: 70px;
+    font-style: bold;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron p{
+    font-size: 30px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.jumbotron img{
+    width: 250px;
+    border: 5px solid #333;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+hr{
+    width: 250px;
+    border-top: 4px solid #999;
+}
+
+section {
+    min-height: 400px;
+}
+
+.portofolio{
+    background-color: #eee;
+}
+
+.portofolio .thumbnail{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.portofolio .thumbnail.muncul{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.contact{
+    min-height: 700px;
+}
+
+footer {
+    background-color: #333; /* Warna hitam */
+    color: white; /* Warna teks */
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #4ea8de; /* Warna link */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 800px; /* Batasi lebar maksimal */
+    margin: 0 auto; /* Tengah secara horizontal */
+    padding: 40px; /* Tambahkan ruang di sekitar */
+}
+
+.row {
+    display: flex; /* Gunakan Flexbox untuk tata letak horizontal */
+    align-items: center; /* Posisikan elemen secara vertikal */
+    gap: 20px; /* Beri jarak antara teks dan gambar */
+}
+
+.text-content {
+    font-size: 20px;
+    text-align: justify; /* Rata kanan-kiri */
+    flex: 1; /* Agar teks dan gambar bisa fleksibel */
+}
+
+.image-content img {
+    width: 200px; /* Ukuran gambar */
+    height: auto;
+    border-radius: 10px; /* Tambahkan sudut melengkung */
+}
+
+.projects-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 15px;
+}
+
+.project-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    font-size: 16px;
+    color: #555;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .card .view-details {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .card .view-details:hover {
+    background-color: #0056b3;
+  }
+  
+  .portofolio1{
+    background-color: #fff;
+    max-width: 800px; /* Batasi lebar maksimal */
+    margin: 0 auto; /* Tengah secara horizontal */
+    padding: 40px; /* Tambahkan ruang di sekitar */
+}

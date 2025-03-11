@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Porto</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a href="#home" class="navbar-brand page-scroll">Nur Rizki</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" class="page-scroll">About</a></li>
+                    <li><a href="#portofolio" class="page-scroll">Portofolio</a></li>
+                    <li><a href="#contact" class="page-scroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Akhir Navbar -->
+
+    <!-- jumbotron -->
+
+    <div class="jumbotron text-center">
+
+        <img src="img/profil.jpeg" class="img-circle">
+
+        <h1 style="color: white;">Nur Rizki Rahmatulloh</h1>
+
+        <p style="color: white;">Cloud Engineer | AWS Certified</p>
+    
+    </div>
+
+    <!-- akhir jumbotron -->
+    
+    <!-- About -->
+
+        <section class="about" id="about">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">About</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <!-- Teks -->
+                    <div class="text-content">
+                        <p>Cloud Engineer specializing in AWS and Network Infrastructure. Currently working at PT Central Data Technology as an AWS Cloud Engineer, with expertise in cloud architecture, networking, and automation. Experienced in deploying and managing cloud resources, implementing network security, and optimizing cloud-based infrastructures. Passionate about scalability, high availability, and performance optimization in cloud environments.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+        </section>
+    <!-- Akhir About -->
+
+
+    <!-- Portofolio -->
+
+        <section class="portofolio" id="portofolio">
+            <div class="projects-container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+            
+                    <!-- Proyek 1 -->
+                    <div class="project-card">
+                        <img src="img/Figure-3.-AMI-and-EBS-snapshot-copy-across-Regions.png" alt="AWS Architecture">
+                        <div class="project-content">
+                            <h3>Multi-Region High Availability</h3>
+                            <p>Merancang arsitektur cloud yang scalable dan fault-tolerant untuk klien fintech dengan AWS.</p>
+                            <p><strong>Teknologi:</strong> AWS (VPC, ALB, RDS, Auto Scaling, CloudFront)</p>
+                        </div>
+                    </div>
+            
+                    <!-- Proyek 2 -->
+                    <div class="project-card">
+                        <img src="img/ecs.webp" alt="Kubernetes Deployment">
+                        <div class="project-content">
+                            <h3>Kubernetes Deployment for Microservices</h3>
+                            <p>Deploy microservices di AWS EKS dengan CI/CD untuk klien enterprise.</p>
+                            <p><strong>Teknologi:</strong> AWS EKS, Docker, Helm, GitHub Actions</p>
+                        </div>
+                    </div>
+            
+                    <!-- Proyek 3 -->
+                    <div class="project-card">
+                        <img src="img/sec.jpg" alt="Network Security">
+                        <div class="project-content">
+                            <h3>Implementasi Network Security</h3>
+                            <p>Mengamankan komunikasi antar layanan dengan AWS WAF dan Network ACL.</p>
+                            <p><strong>Teknologi:</strong> AWS WAF, VPC, Security Groups</p>
+                        </div>
+                    </div>
+
+                    <!-- Proyek 4 -->
+                    <div class="project-card">
+                        <img src="img/transit-gateway-arch-diagram-1.webp" alt="VPN/TGW">
+                        <div class="project-content">
+                            <h3>Implementasi Site-to-Site VPN & Transit Gateway</h3>
+                            <p>Menyambungkan AWS Account A (FortiGate) dan AWS Account B (AWS Cloud) melalui VPN dan Transit Gateway untuk komunikasi aman.</p>
+                            <p><strong>Teknologi:</strong> Site-to-Site VPN, Transit Gateway, FortiGate, AWS Cloud</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Proyek 5 -->
+                    <div class="project-card">
+                        <img src="img/aws-monitoring-thumbnail.png" alt="CloudWatch Monitoring">
+                        <div class="project-content">
+                            <h3>Monitoring dengan CloudWatch</h3>
+                            <p>Memantau kinerja dan log AWS resources seperti EC2, RDS, dan Load Balancer menggunakan AWS CloudWatch.</p>
+                            <p><strong>Teknologi:</strong> CloudWatch, EC2, RDS, AWS Lambda</p>
+                        </div>
+                    </div>
+
+                    <!-- Proyek 6 -->
+                    <div class="project-card">
+                        <img src="img/1_XVbZzszVgjJ21zJx7atK7w.jpg" alt="Amazon S3 Storage">
+                        <div class="project-content">
+                            <h3>Implementasi Amazon S3</h3>
+                            <p>Menangani penyimpanan data skala besar dengan Amazon S3, termasuk konfigurasi bucket dan pengaturan akses.</p>
+                            <p><strong>Teknologi:</strong> Amazon S3, Bucket Policies, IAM, Versioning</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="portofolio1" id="portofolio1">
+            <div class="projects-container">
+                <h2>Sertifikat dan Event</h2>
+                <div class="projects-grid">
+            
+                    <!-- Proyek 1 -->
+                    <div style="display: flex; gap: 10px; justify-content: center;">
+                        <img src="img/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png" width="150">
+                        <img src="img/AWS-Certified-Solutions-Architect-Professional_badge.69d82ff1b2861e1089539ebba906c70b011b928a.png" width="150">
+                        <img src="img/AWS-Certified-SysOps-Administrator-Associate_badge.c3586b02748654fb588633314dd66a1d6841893b.png" width="150">
+                    </div>   
+                </div>
+                <div>
+                    <img src="img/1732191244306.jpg" style="width: 450px;">
+                </div>
+            </div>
+            
+        </section>
+
+    <!-- Akhir Portofolio -->
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Contact</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" class="form-control" placeholder="Masukan Nama">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Masukan Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" class="form-control" rows="10" placeholder="Masukan Pesan"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary btn-lg active">Kirim</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Akhir Contact -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>&copy; copyright 2025 | built by, <a href="">Nur Rizki R.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
